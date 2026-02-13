@@ -17,3 +17,11 @@ Route::get('/servicios', function () {
 Route::get('/contacto', function () {
     return view('contacto');
 });
+
+Route::view('/educacion', 'educacion')->name('educacion');
+Route::view('/investigacion', 'investigacion')->name('investigacion');
+Route::view('/compromiso-social', 'compromiso')->name('compromiso');
+Route::view('/', 'home')->name('home');
+
+
+

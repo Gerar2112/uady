@@ -16,41 +16,21 @@
 
 {{-- Misión / Visión / Valores --}}
 <div class="row g-4">
-    <div class="col-md-4">
-        <div class="card h-100 shadow-sm border-0">
-            <div class="card-body text-center">
-                <h5 class="card-title fw-bold mb-3">🎯 Misión</h5>
-                <p class="card-text">
-                    Formar profesionales competentes con responsabilidad social
-                    y compromiso con el desarrollo sustentable.
-                </p>
-            </div>
-        </div>
-    </div>
 
-    <div class="col-md-4">
-        <div class="card h-100 shadow-sm border-0">
-            <div class="card-body text-center">
-                <h5 class="card-title fw-bold mb-3">🌎 Visión</h5>
-                <p class="card-text">
-                    Ser una universidad reconocida nacional e internacionalmente
-                    por su calidad académica y aportes científicos.
-                </p>
-            </div>
-        </div>
-    </div>
+    <x-card
+        title="🎯 Misión"
+        text="Formar profesionales competentes con responsabilidad social y compromiso con el desarrollo sustentable."
+    />
 
-    <div class="col-md-4">
-        <div class="card h-100 shadow-sm border-0">
-            <div class="card-body text-center">
-                <h5 class="card-title fw-bold mb-3">🤝 Valores</h5>
-                <p class="card-text">
-                    Ética, responsabilidad, respeto, innovación y trabajo en equipo.
-                </p>
-            </div>
-        </div>
-    </div>
+    <x-card
+        title="🌎 Visión"
+        text="Ser una universidad reconocida nacional e internacionalmente por su calidad académica y aportes científicos."
+    />
+
+    <x-card
+        title="🤝 Valores"
+        text="Ética, responsabilidad, respeto, innovación y trabajo en equipo."
+    />
+
 </div>
-
 @endsection
-    
